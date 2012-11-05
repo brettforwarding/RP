@@ -224,7 +224,7 @@ DEPENDENCIES
   jquery-rails
   libnotify (= 0.5.9)
   omniauth-facebook
-  pg (= 0.12.2)
+  pg
   rails
   rb-inotify (= 0.8.8)
   rspec-rails (= 2.10.0)
