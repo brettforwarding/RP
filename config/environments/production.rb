@@ -1,6 +1,9 @@
 Blog::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  ENV['FACEBOOK_KEY'] = '406219086114648'
+  ENV['FACEBOOK_SECRET'] = '55fe573666ea128bacbf60eb85715093'
+
   # Code is not reloaded between requests
   config.cache_classes = true
 

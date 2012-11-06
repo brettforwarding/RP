@@ -1,6 +1,9 @@
 Blog::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  ENV['FACEBOOK_KEY'] = '537872326226941'
+  ENV['FACEBOOK_SECRET'] = '4d4431efb45d1a1bdaceb5c8724aa115'
+
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
